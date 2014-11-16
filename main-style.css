@@ -1,0 +1,93 @@
+body {
+	width:100%;
+	height:100%;
+	/*background-image:url('http://3.bp.blogspot.com/-h8gDuAoLEFo/UyZgvVFvgfI/AAAAAAAABSM/yMn5jEKHZ8o/s1600/Apple-OS-X-10-9-Mavericks-Wallpaper.jpg');*/
+	background-image:url('http://www.weebly.com/editor/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/background.jpg?1415145050831');
+	background-size:375%;
+	background-repeat: no-repeat;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+a {
+	color:black;
+}
+
+h1 {
+	font-family:Helvetica Neue, Helvetica, sans-serif;
+}
+
+.header {
+}
+
+.topbanner {
+	width:100%;
+	height:140px;
+	margin-top:200px;
+	margin-bottom:20px;
+	background-image:url('http://www.weebly.com/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/macgradient.png?1399085498288');
+	background-position:center;
+	background-size:120%;
+	opacity:0.7;
+}
+
+.logo {
+	height:200px;
+	width:100%;
+	float:left;
+	clear:both;
+
+}
+
+.title {
+	line-height:100px;
+
+}
+
+.sidebar {
+	height:800px;
+	width:20%;
+	background-image:url('http://www.weebly.com/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/macgradient.png?1399085498288');
+	float:left;
+	margin-right:25px;
+	padding-left:15px;
+	opacity:0.7;
+}
+
+.recent {
+	
+}
+.gallery {
+	margin:auto;
+}
+
+#links {
+	border:1px solid black;
+	width:24%;
+	height:100px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:0.80%;
+	padding:5px;
+	font-family:Helvetica Neue, Helvetica, sans-serif;
+	font-size:24px;
+	background-color:#3975D7;
+	background-position:center;
+	background-size:120%;
+}
+
+#links:hover {
+	background-image:url('http://www.weebly.com/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/WZBLOGBUTTON.png?1399070402691');
+}
+
+#links:active {
+	border:2px solid black;
+	background-image:url('http://www.weebly.com/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/WZBLOGBUTTON%20copy.png?1399071094236');
+	background-position:center;
+	background-size:120%;
+	color:gray;
+}
+
+#sidebar {
+	color:rgb(57,117,215);
+}
