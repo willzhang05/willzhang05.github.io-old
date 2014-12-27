@@ -1,56 +1,85 @@
 <!DOCTYPE html>
-<html>
 	<script type="text/javascript">
 	</script>
 	<head>
-		<link rel="icon" type="image/png" href="https://www.blogger.com/favicon-image.g?blogID=6274754737357801226">
+		<link rel="icon" type="image/png" href="https://www.blogger.com/favicon-image.g?blogID=6274754737357801226"/>
 		<link rel="stylesheet" type="text/css" href="main-style.css">
+		<link rel="import" href="polymer_local/components/paper-ripple/paper-ripple.html"/>
+		<link rel="import" href="polymer_local/components/core-icons/core-icons.html"/>
+		<link rel="import" href="polymer_local/components/font-roboto/roboto.html"/>
+		<link rel="import" href="polymer_local/components/paper-menu-button/paper-menu-button.html"/>
+		<link rel="import" href="polymer_local/components/polymer/polymer.html"/>
+		<link rel="import" href="polymer_local/components/core-a11y-keys/core-a11y-keys.html"/>
+		<link rel="import" href="polymer_local/components/core-dropdown/core-dropdown-base.html"/>
+		<link rel="import" href="polymer_local/components/paper-elements/paper-elements.html"/>
 	</head>
-	<body class='  wsite-theme-light'>
+	<body>
 		<div class="header">
-			<div class="logoandtitle">
 				<a href="http://williamzhangprojects.weebly.com/">
 					<div class="logo">
-						<img src="http://www.weebly.com/editor/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/WZProjectslogo.png?1415145218503" width="640" height="200"/>
+						<img src="http://www.weebly.com/editor/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/WZProjectslogo.png?1415145218503" width="640" height="200" alt="WZProjects"/>
 					</div>
 				</a>
 		</div>
+
 			<br/>
 		<div class="topbanner">
-			<a href="http://williamzhangprojects.weebly.com/">
-				<button id="links">
-					PROJECTS
-				</button>
-			</a>
-			<a href="gallery.html">
-				<button id="links">
-					GALLERY
-				</button>
-			</a>
-			<a href="tracks.html">
-				<button id="links">
-					TRACKS
-				</button>
-			</a>
-			<a href="other.html">
-				<button id="links">
-					OTHER
-				</button>
-			</a>
+			<paper-menu-button>
+				<paper-icon-button style="margin:10%;" icon="menu" role="button" tabindex="0" aria-label="menu">
+						<paper-ripple></paper-ripple>
+				</paper-icon-button>
+				<paper-dropdown class="dropdown">
+					<core-menu class="sidebar">
+						<paper-item>
+							<a class="links" href="http://williamzhangprojects.weebly.com">
+								Home
+							</a>
+						</paper-item>
+						<paper-item>
+							<a class="links" href="http://williamzhangprojects.weebly.com">
+								Gallery
+							</a>
+						</paper-item>
+						<paper-item>
+							<a class="links" href="http://williamzhangprojects.weebly.com">
+								Tracks
+							</a>
+						</paper-item>
+						<paper-item>
+							<a class="links" href="http://williamzhangprojects.weebly.com">
+								Blog
+							</a>
+						</paper-item>
+						<paper-item>
+							<a class="links" href="http://williamzhangprojects.weebly.com">
+								Other
+							</a>
+						</paper-item>
+					</core-menu>
+				</paper-dropdown>			
+			</paper-menu-button>
 		</div>
-	</div>
-	<div class="sidebar">
-		<br/>
-			<a id="sidebar" href="http://thewiztechblog.blogspot.com/">My Technology Blog</a>
-			<br/>
-			<br/>
-			<a id="sidebar" href="8thgradeedproject.html">8th Grade ED Project</a>
-			<br/>
-			<br/>
-			<a id="sidebar" href="http://aluminumelementresearchproject.weebly.com/">8th Grade Element Project</a>
-		<br/>
-	</div>
-		
-		<div style='padding: 20px; width:100%; text-align:center;'></div>
-</body>
+		<div id="card-1" class="content">
+			<h1 style="padding:10px;">BeamNG.drive Gameplay</h1>
+			<div style="text-align:center;">
+				<iframe width="64%" height="360px" style="border:none;" src="http://www.youtube.com/embed/0Np-dQfyBwY" allowfullscreen>
+				</iframe>
+			</div>
+			<div style="padding:15px;">
+				<span>This game is still in early development. Visit the website here: 
+					<a href="http://beamng.com/" target="_blank">BeamNG.drive</a>
+				</span>
+			</div>
+		</div>
+		<!--
+		<div id="card-2" class="content">
+			<paper-item>
+				<canvas id="myCanvas" class="test">
+				</canvas>
+				<script>
+				</script>
+			</paper-item>
+		</div>
+		-->
+	</body>
 </html>
