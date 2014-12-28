@@ -1,0 +1,9 @@
+[submodule "polymer_local/NodeBind"]
+	path = polymer_local/NodeBind
+	url = https://github.com/Polymer/NodeBind
+[submodule "NodeBind"]
+	path = NodeBind
+	url = https://github.com/Polymer/NodeBind
+[submodule "polymer_local/components/NodeBind"]
+	path = polymer_local/components/NodeBind
+	url = https://github.com/Polymer/NodeBind
