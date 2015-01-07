@@ -3,8 +3,8 @@ body {
 	height:100%;
 	/*background-image:url('http://3.bp.blogspot.com/-h8gDuAoLEFo/UyZgvVFvgfI/AAAAAAAABSM/yMn5jEKHZ8o/s1600/Apple-OS-X-10-9-Mavericks-Wallpaper.jpg');*/
 	background-image:url('http://www.weebly.com/editor/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/background.jpg?1415145050831');
-	background-size:250%;
-	background-repeat: no-repeat;
+	background-size:255%;
+	background-repeat: repeat-y;
 	font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
 	margin:0px;
 	-webkit-user-select: none;
