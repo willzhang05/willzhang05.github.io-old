@@ -134,9 +134,10 @@ h1 {
 
 .attribution {
 	width:100%;
-	height:200px;
+	height:100px;
 	background-color:#424242; /*Meaning of life 6x*/
 	color:#EEEEEE;
+	text-align:center;
 }
 
 .source:hover {
