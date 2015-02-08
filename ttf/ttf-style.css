@@ -76,8 +76,6 @@ h1 {
 .content {
 	cursor:pointer;
 	width:50%;
-	margin-top:2%;
-	margin-bottom:2%;
 	margin-left:25%;
 	float:left;
 	background-color:#EEEEEE;
@@ -87,23 +85,28 @@ h1 {
 }
 
 .content:active {
-	margin-top:1.75%;
-	margin-bottom:2.25%;
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
 }
 
-.content .video {
-	padding-left:17.5%;
-	padding-right:17.5%;
-	border:none;
+#card-1 {
+	margin-top:2%;
+	margin-bottom:2%;
 }
 
-.content .image {
-	padding-left:17.5%;
-	padding-right:17.5%;
-	border:none;
+#card-1:active {
+	margin-top:1.75%;
+	margin-bottom:2.25%;
 }
 
+#card-2 {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+#card-2:active {
+	margin-top:1.75%;
+	margin-bottom:2.25%;
+}
 
 .shadow {
 	z-index:0;
@@ -144,6 +147,7 @@ h1 {
 
 .test {
 	color:black;
+	border:1px solid red;
 	/*Test ideas here*/
 }
 
