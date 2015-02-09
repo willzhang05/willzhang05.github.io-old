@@ -7,3 +7,6 @@
 [submodule "polymer_local/components/NodeBind"]
 	path = polymer_local/components/NodeBind
 	url = https://github.com/Polymer/NodeBind
+[submodule "impress.js"]
+	path = impress.js
+	url = https://github.com/bartaz/impress.js/

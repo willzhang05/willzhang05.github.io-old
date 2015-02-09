@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+    <script src="ttf-script.js">
+    </script>
 	<head>
 		<link rel="icon" type="image/png" href="https://www.blogger.com/favicon-image.g?blogID=6274754737357801226">
 		<link rel="import" href="bower_components/polymer/polymer.html">
@@ -15,17 +17,21 @@
 	<style>
 
 	</style>
-	<title>TTF Presentation</title>
-	<body>
+    <body onkeydown="redirect()">
 	    <paper-shadow z="1">
 	    <div class="slidewrapper">
 	        <div class="content">
-	            <h1 style="font-size:48px; font-family:RobotoDraft;">
-	                Web Design and Coding
-	            </h1>
-	            <h2 style="font-size:48px; font-family:RobotoDraft;">
-	                By: William Zhang
-	            </h2>
+                <paper-shadow z="1">
+                    <div id="card-2" class="content">
+                        <paper-item>
+                            <canvas id="myCanvas" class="test">
+                            </canvas>
+                            <script>
+                                
+                            </script>
+                        </paper-item>
+                    </div>
+                </paper-shadow>
 	        </div>
 	    </div>
 	    </paper-shadow>
@@ -41,3 +47,4 @@
 			</div>
 		</paper-shadow>
 	</body>
+</html>
