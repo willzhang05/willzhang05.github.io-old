@@ -6,6 +6,7 @@ body {
 	background-size:255%;*/
 	font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
 	margin:0px;
+	overflow-x: hidden;
 	-webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -24,6 +25,45 @@ h1 {
 	font-size:16px;
 	margin:5px;
 }
+
+/*begin menu testing*/
+
+#wrapper {
+	position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+}
+
+nav.slideLeft {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+
+nav.slideLeft {
+    left: -300px;
+}
+
+body.sml-open nav.slideLeft {
+    left: 0;
+}
+
+/*end menu testing*/
 
 .clearleft{
 	clear:left;
