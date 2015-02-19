@@ -18,6 +18,11 @@ body {
 a {
 	color:#757575;
 	text-decoration:none;	
+	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+   	transition: all 0.2s ease;
 }
 
 h1 {
@@ -104,6 +109,14 @@ body.sml-open nav.slideLeft {
 	position: relative;
 }
 
+.links {
+	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+   	transition: all 0.2s ease;
+}
+
 .links:hover {
 	color:black;
 	font-weight:bold;
@@ -123,17 +136,21 @@ body.sml-open nav.slideLeft {
 	background-color:#EEEEEE;
 	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.1);
 	box-shadow: 0 0 6px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+   	transition: all 0.2s ease;
 	
 }
 
-
 .content:hover {
-	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.2);
 }
 .content:active {
 	margin-top:1.75%;
 	margin-bottom:2.25%;
-	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.2);
 }
 
 .content .video {
@@ -147,6 +164,13 @@ body.sml-open nav.slideLeft {
 	padding-right:17.5%;
 	border:none;
 }
+
+.content .music {
+	padding-left:17.5%;
+	padding-right:17.5%;
+	border:none;
+}
+
 
 
 .shadow {
