@@ -136,16 +136,16 @@ body.sml-open nav.slideLeft {
 	background-color:#EEEEEE;
 	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.1);
 	box-shadow: 0 0 6px rgba(0,0,0,0.1);
-	-webkit-transition: all 0.2s ease;
-  	-moz-transition: all 0.2s ease;
-  	-ms-transition: all 0.2s ease;
-  	-o-transition: all 0.2s ease;
-   	transition: all 0.2s ease;
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+   	transition: all 0.3s ease;
 	
 }
 
 .content:hover {
-	box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .content:active {
