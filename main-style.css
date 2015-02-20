@@ -1,12 +1,10 @@
 body {
 	width:100%;
 	height:200%;
-	/*background-image:url('http://3.bp.blogspot.com/-h8gDuAoLEFo/UyZgvVFvgfI/AAAAAAAABSM/yMn5jEKHZ8o/s1600/Apple-OS-X-10-9-Mavericks-Wallpaper.jpg');*/
-	/*background-image:url('http://www.weebly.com/editor/uploads/2/3/6/9/23695399/custom_themes/719394829414708226/files/background.jpg?1415145050831');
-	background-size:255%;*/
 	font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
 	margin:0px;
 	overflow-x: hidden;
+	position:relative;
 	-webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -122,10 +120,6 @@ body.sml-open nav.slideLeft {
 	font-weight:bold;
 }
 
-.links:active {
-	color:black;
-}
-
 .content {
 	cursor:pointer;
 	width:50%;
@@ -171,8 +165,6 @@ body.sml-open nav.slideLeft {
 	border:none;
 }
 
-
-
 .shadow {
 	z-index:0;
 }
@@ -183,7 +175,6 @@ body.sml-open nav.slideLeft {
 
 .footer {
 	width:100%;
-	margin-top:50%;
 }
 
 .categories {
