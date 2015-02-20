@@ -2,7 +2,12 @@
 	<script type="text/javascript">
 	</script>
 	<head>
-		<meta name=viewport content="width=device-width, initial-scale=1">
+		<meta property="og:image" content="images/WZProjectslogo-vector.svg"/>
+		<meta property="og:image:secure_url" content="images/WZProjectslogo-vector.svg"/>
+		<meta charset="UTF-8">
+		<meta name="description" content="William Zhang Projects">
+		<meta name="author" content="William Zhang">
+		
 		<link rel="icon" type="image/png" href="https://www.blogger.com/favicon-image.g?blogID=6274754737357801226">
 		<link rel="stylesheet" href="main-style.css">
 		<link rel="import" href="bower_components/polymer/polymer.html">
@@ -27,88 +32,88 @@
 		</div>
 		<br/>
 		<paper-shadow z="1">
-		<div class="topbanner">
-			<paper-menu-button>
-				<paper-icon-button style="margin:4px;" icon="menu" role="button" tabindex="0" aria-label="menu">
-						<paper-ripple></paper-ripple>
-				</paper-icon-button>
-				<paper-dropdown class="dropdown">
-						<paper-item>
-							<a class="links" href="http://willzhang05.github.io">
-								Home
-							</a>
-						</paper-item>
-						<paper-item>
-							<a class="links" href="gallery.html">
-								Gallery
-							</a>
-						</paper-item>
-						<paper-item>
-							<a class="links" href="tracks.html">
-								Tracks
-							</a>
-						</paper-item>
-						<paper-item>
-							<a class="links" href="http://thewiztechblog.blogspot.com/">
-								Blog
-							</a>
-						</paper-item>
-						<paper-item>
-							<a class="links" href="other.html">
-								Other
-							</a>
-						</paper-item>
-				</paper-dropdown>	
-			</paper-menu-button>
-		</div>
+			<div class="topbanner">
+				<paper-menu-button>
+					<paper-icon-button style="margin:4px;" icon="menu" role="button" tabindex="0" aria-label="menu">
+							<paper-ripple></paper-ripple>
+					</paper-icon-button>
+					<paper-dropdown class="dropdown">
+							<paper-item>
+								<a class="links" href="http://willzhang05.github.io">
+									Home
+								</a>
+							</paper-item>
+							<paper-item>
+								<a class="links" href="gallery.html">
+									Gallery
+								</a>
+							</paper-item>
+							<paper-item>
+								<a class="links" href="tracks.html">
+									Tracks
+								</a>
+							</paper-item>
+							<paper-item>
+								<a class="links" href="http://thewiztechblog.blogspot.com/">
+									Blog
+								</a>
+							</paper-item>
+							<paper-item>
+								<a class="links" href="other.html">
+									Other
+								</a>
+							</paper-item>
+					</paper-dropdown>	
+				</paper-menu-button>
+			</div>
 		</paper-shadow>
 		<!--<paper-shadow class="shadow" z="0" animated>-->
 		<paper-shadow z="1">
-		<div id="card-1" class="content">
-			<h1 style="padding:10px;">BeamNG.drive Gameplay</h1>
-			<div style="text-align:center;">
-				<iframe width="64%" height="360px" style="border:none;" src="http://www.youtube.com/embed/0Np-dQfyBwY" allowfullscreen>
-				</iframe>
+			<div id="card-1" class="content">
+				<h1 style="padding:10px;">BeamNG.drive Gameplay</h1>
+				<div style="text-align:center;">
+					<iframe width="64%" height="360px" style="border:none;" src="http://www.youtube.com/embed/0Np-dQfyBwY" allowfullscreen>
+					</iframe>
+				</div>
+				<div style="padding:15px;">
+					<span>This game is still in early development. Visit the website here: 
+						<a class="source" href="http://beamng.com/" target="_blank">BeamNG.drive</a>
+					</span>
+				</div>
 			</div>
-			<div style="padding:15px;">
-				<span>This game is still in early development. Visit the website here: 
-					<a class="source" href="http://beamng.com/" target="_blank">BeamNG.drive</a>
-				</span>
-			</div>
-		</div>
 		</paper-shadow>
 		<!--</paper-shadow>
 		<paper-shadow class="shadow" z="0" animated>-->
 		<paper-shadow z="1">
-		<div id="card-2" class="content">
-			<paper-item>
-				<canvas id="randomDots" width="300px" height="100px" class="test">
-				</canvas>
-				<script>
-					var canvas = document.getElementById('randomDots');
-					var ctx = canvas.getContext('2d');
-					setInterval(function(){
-						var x=canvas.width*0.5;
-						var y=canvas.height*0.5;
-						var randomPoints=[ctx.fillRect(x,y,x,y) for (i=0;i<1000;i++)];
-  						for (n=0;n<1000;n++){
-  							for (i in randomPoints){
-  								var randint = Math.random(1,4)
-  								if (randint==1){
-  									ctx.moveTo(x+1,y);
-  								} else if (randint==2){
-  									ctx.moveTo(x,y+1);
-  								} else if (randint==3){
-  									ctx.moveTo(x-1,y);
-  								} else {
-  									ctx.moveTo(x,y-1);
-  								}
-  							}
-  						}
-					},1000/15);
-				</script>
-			</paper-item>
-		</div>
+			<div id="card-2" class="content">
+				<paper-item>
+					<canvas id="randomDots" width="300px" height="100px" class="test">
+					</canvas>
+					<script>
+						var canvas = document.getElementById('randomDots');
+						var ctx = canvas.getContext('2d');
+						setInterval(function(){
+							var x=canvas.width*0.5;
+							var y=canvas.height*0.5;
+							var randomPoints=[ctx.fillRect(x,y,x,y) for (i=0;i<1000;i++)];
+	  						for (n=0;n<1000;n++){
+	  							for (i in randomPoints){
+	  								var randint = Math.random(1,4)
+	  								if (randint==1){
+	  									ctx.moveTo(x+1,y);
+	  								} else if (randint==2){
+	  									ctx.moveTo(x,y+1);
+	  								} else if (randint==3){
+	  									ctx.moveTo(x-1,y);
+	  								} else {
+	  									ctx.moveTo(x,y-1);
+	  								}
+	  							}
+	  						}
+						},1000/15);
+					</script>
+				</paper-item>
+			</div>
 		</paper-shadow>
 		<!--</paper-shadow>-->
 		<div class="footer">
@@ -142,15 +147,15 @@
 				</paper-shadow>
 			</div>
 			<paper-shadow z="1">
-			<div class="attribution">
-				<br/>
-				<span style="margin-left:15px; display:inline-block;">
-					Polymer Web Components used under the 
-					<a class="source" href="http://polymer.github.io/LICENSE.txt" target="_blank">BSD license.</a>
-					Material Design components available here: 
-					<a class="source" href="http://www.polymer-project.org/" target="_blank">Polymer Project.</a>
-				</span>
-			</div>
+				<div class="attribution">
+					<br/>
+					<span style="margin-left:15px; display:inline-block;">
+						Polymer Web Components used under the 
+						<a class="source" href="http://polymer.github.io/LICENSE.txt" target="_blank">BSD license.</a>
+						Material Design components available here: 
+						<a class="source" href="http://www.polymer-project.org/" target="_blank">Polymer Project.</a>
+					</span>
+				</div>
 			</paper-shadow>
 		</div>
 	</body>
