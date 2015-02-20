@@ -145,12 +145,12 @@ body.sml-open nav.slideLeft {
 }
 
 .content:hover {
-	box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.2);
 }
 .content:active {
 	margin-top:1.75%;
 	margin-bottom:2.25%;
-	box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.2);
 }
 
 .content .video {
