@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Web Design and Programming</title>
-    <link rel="import" href="../../bower_components/font-roboto/roboto.html">
+    <link rel="import" href="../bower_components/font-roboto/roboto.html">
 
     <!--
         
@@ -133,88 +133,39 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="title" class="step" data-x="-1000" data-y="0" data-z="-1000" data-scale="1">
-        <img src="images/introimage.svg"/>
-    </div>
-    
-    
-    <div class="step" data-x="1000" data-y="0" data-scale="1">
-        <img src="images/hook.png"/>
-        <p style="font-size:12px">Image from http://webstuffguy.com/images/atlanta%20website%20design-webstuffguy.png</p>
-    </div>
-    
-    <div class="step" data-x="2500" data-y="0" data-rotate="720" data-scale="1">
-        <img src="../../images/WZProjectslogo-vector.svg" alt="WZProjects"/>
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="1">
+        <img src="../images/WZProjectslogo-vector.svg" width="640" height="200" alt="WZProjects"/>
         <h1>William Zhang</h1>
     </div>
 
-
-    <div class="step" data-x="4000" data-y="0" data-z="0" data-scale="1">
-        <h1>&lt;title&gt;
-        <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designing &amp; Programming the Web
-        <br/>
-        &lt;/title&gt;</h1>
-            <img src="images/interwebs.jpg"/>
-            <p style="font-size:12px">Image from http://www.leonardpierce.com/wp-content/uploads/2013/11/interwebs.jpg</p>
-    </div>
-    
-    <div class="step" data-x="5500" data-y="0" data-z="-100" data-scale="1">
-        <img src="images/mywebsiteold.PNG"/>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsite.PNG"/>
-    </div>
-    
-    <div class="step" data-x="7500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsitehtml.PNG"/>
-    </div>
-    
-    <div class="step" data-x="8500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsitecss.PNG"/>
-    </div>
-    
-    <div class="step" data-x="9500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsitejs.PNG"/>
-    </div>
-    
-    <div class="step" data-x="10500" data-y="0" data-z="-3000" data-scale="1">
-        <img src="images/webstandards.png"/>
-        <p style="font-size:12px">Image from https://konjekt.com/images/html5_js_css3.png</p>
-    </div>
-    
-    <div class="step" data-x="11500" data-y="0" data-z="0" data-scale="1">
-        <img src="images/iconmashup.jpg"/>
-        <p style="font-size:12px">Image from http://toolshed.down.net/news/tales/iconmashup.jpg</p>
-    </div>
-    
-    <div class="step" data-x="11500" data-y="2500" data-z="0" data-scale="1">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/3iVVM_DgWY4?rel=0&start=114&end=210&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
-    </div>
-    
-    
-    <!--<div class="step" data-x="6500" data-y="1000" data-scale="1">
-        <span>Overview</span>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="1100" data-scale="1">
-        <li>Why websites?</li>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="1200" data-scale="1">
-        <li>Making websites</li>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="1300" data-scale="1">
-        <li>Making websites</li>
-    </div>
+    <!--
+        
+        This element introduces rotation.
+        
+        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
+        element should be rotated by 90 degrees clockwise.
+        
     -->
-    
-    
-    
-    
+    <div id="its" class="step" data-x="1000" data-y="3000" data-rotate="90" data-scale="2">
+        <h1>Web Design &amp; Programming</h1>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    </div>
+
+    <!--
+        
+        And now it gets really exciting! We move into third dimension!
+        
+        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
+        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
+        positioned far away from us (by 3000px).
+        
+    -->
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>and <b>tiny</b> ideas</p>
+    </div>
 
     <!--
         
@@ -236,6 +187,13 @@
         Only one current step has the `present` class.
         
     -->
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    </div>
 
     <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>

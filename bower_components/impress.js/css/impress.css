@@ -85,13 +85,7 @@ body {
     font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
     min-height: 740px;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background-color: #3975D7;
 }
 
 /*
@@ -135,6 +129,11 @@ a:focus {
 
     And then we hide the message, when support is detected in the browser.
 */
+
+/*.step #slideimageandsrc {
+    font-size:12px;
+    margin-left:auto;
+}*/
 
 .fallback-message {
     font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
@@ -213,7 +212,7 @@ a:focus {
     height: 700px;
     padding: 40px 60px;
 
-    background-color: white;
+    background-color: #3975D7;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
@@ -275,8 +274,9 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 50px;
-
+    font-size: 100px;
+    text-align:center;
+    
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);

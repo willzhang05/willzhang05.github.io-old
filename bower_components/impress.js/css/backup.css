@@ -82,7 +82,7 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
     background: rgb(215, 215, 215);
@@ -137,7 +137,7 @@ a:focus {
 */
 
 .fallback-message {
-    font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
+    font-family: sans-serif;
     line-height: 1.3;
 
     width: 780px;
@@ -175,7 +175,7 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
 }
@@ -221,17 +221,10 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: RobotoDraft, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
-    
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .slide q {
@@ -275,7 +268,7 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 50px;
+    font-size: 190px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);

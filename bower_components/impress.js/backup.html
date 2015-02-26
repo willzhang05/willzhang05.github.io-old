@@ -1,12 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
+
+<!--
+
+    Welcome to the light side of the source, young padawan.
+
+    One step closer to learn something interesting you are...
+
+                               ____                  
+                            _.' :  `._               
+                        .-.'`.  ;   .'`.-.           
+               __      / : ___\ ;  /___ ; \      __  
+             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
+             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
+                  `:-.._J '-.-'L__ `-.-' L_..-;'     
+                    "-.__ ;  .-"  "-.  : __.-"       
+                        L ' /.======.\ ' J           
+                         "-.   "__"   .-"            
+                        __.l"-:_JL_;-";.__           
+                     .-j/'.;  ;""""  / .'\"-.        
+                   .' /:`. "-.:     .-" .';  `.      
+                .-"  / ;  "-. "-..-" .-"  :    "-.   
+             .+"-.  : :      "-.__.-"      ;-._   \  
+             ; \  `.; ;                    : : "+. ; 
+             :  ;   ; ;                    : ;  : \: 
+             ;  :   ; :                    ;:   ;  : 
+            : \  ;  :  ;                  : ;  /  :: 
+            ;  ; :   ; :                  ;   :   ;: 
+            :  :  ;  :  ;                : :  ;  : ; 
+            ;\    :   ; :                ; ;     ; ; 
+            : `."-;   :  ;              :  ;    /  ; 
+             ;    -:   ; :              ;  : .-"   : 
+             :\     \  :  ;            : \.-"      : 
+              ;`.    \  ; :            ;.'_..-=  / ; 
+              :  "-.  "-:  ;          :/."      .'  :
+               \         \ :          ;/  __        :
+                \       .-`.\        /t-""  ":-+.   :
+                 `.  .-"    `l    __/ /`. :  ; ; \  ;
+                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
+                    \ / .-"   /.     .'.' ;_:'    ;  
+                     :-""-.`./-.'     /    `.___.'   
+                           \ `t  ._  /               
+                            "-.t-._:'                
+
+-->
+
+<!--
+    
+    So you'd like to know how to use impress.js?
+    
+    You've made the first, very important step - you're reading the source code.
+    And that's how impress.js presentations are built - with HTML and CSS code.
+    
+    Believe me, you need quite decent HTML and CSS skills to be able to use impress.js effectively.
+    More importantly, you need to be a designer. There are no default styles or layouts for impress.js presentations.
+    
+    You need to design and build it by hand.
+    
+    So...
+    
+    Would you still like to know how to use impress.js?
+    
+-->
 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Web Design and Programming</title>
-    <link rel="import" href="../../bower_components/font-roboto/roboto.html">
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
     <!--
         
@@ -97,11 +163,11 @@
         It will not be rotated or scaled.
         
     -->
-    <!--<div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
         <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
     </div>
 
-
+    <!--
         
         The `id` attribute of the step element is used to identify it in the URL, but it's optional.
         If it is not defined, it will get a default value of `step-N` where N is a number of slide.
@@ -116,14 +182,15 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
-    <!--
     <div class="step slide" data-x="0" data-y="-1500">
         <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
     </div>
+
     <div class="step slide" data-x="1000" data-y="-1500">
         <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
     </div>
 
+    <!--
         
         This is an example of step element being scaled.
         
@@ -133,88 +200,42 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="title" class="step" data-x="-1000" data-y="0" data-z="-1000" data-scale="1">
-        <img src="images/introimage.svg"/>
-    </div>
-    
-    
-    <div class="step" data-x="1000" data-y="0" data-scale="1">
-        <img src="images/hook.png"/>
-        <p style="font-size:12px">Image from http://webstuffguy.com/images/atlanta%20website%20design-webstuffguy.png</p>
-    </div>
-    
-    <div class="step" data-x="2500" data-y="0" data-rotate="720" data-scale="1">
-        <img src="../../images/WZProjectslogo-vector.svg" alt="WZProjects"/>
-        <h1>William Zhang</h1>
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">then you should try</span>
+        <h1>impress.js<sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup> no rhyme intended</span>
     </div>
 
-
-    <div class="step" data-x="4000" data-y="0" data-z="0" data-scale="1">
-        <h1>&lt;title&gt;
-        <br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designing &amp; Programming the Web
-        <br/>
-        &lt;/title&gt;</h1>
-            <img src="images/interwebs.jpg"/>
-            <p style="font-size:12px">Image from http://www.leonardpierce.com/wp-content/uploads/2013/11/interwebs.jpg</p>
-    </div>
-    
-    <div class="step" data-x="5500" data-y="0" data-z="-100" data-scale="1">
-        <img src="images/mywebsiteold.PNG"/>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsite.PNG"/>
-    </div>
-    
-    <div class="step" data-x="7500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsitehtml.PNG"/>
-    </div>
-    
-    <div class="step" data-x="8500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsitecss.PNG"/>
-    </div>
-    
-    <div class="step" data-x="9500" data-y="0" data-z="100" data-scale="1">
-        <img src="images/mywebsitejs.PNG"/>
-    </div>
-    
-    <div class="step" data-x="10500" data-y="0" data-z="-3000" data-scale="1">
-        <img src="images/webstandards.png"/>
-        <p style="font-size:12px">Image from https://konjekt.com/images/html5_js_css3.png</p>
-    </div>
-    
-    <div class="step" data-x="11500" data-y="0" data-z="0" data-scale="1">
-        <img src="images/iconmashup.jpg"/>
-        <p style="font-size:12px">Image from http://toolshed.down.net/news/tales/iconmashup.jpg</p>
-    </div>
-    
-    <div class="step" data-x="11500" data-y="2500" data-z="0" data-scale="1">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/3iVVM_DgWY4?rel=0&start=114&end=210&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
-    </div>
-    
-    
-    <!--<div class="step" data-x="6500" data-y="1000" data-scale="1">
-        <span>Overview</span>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="1100" data-scale="1">
-        <li>Why websites?</li>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="1200" data-scale="1">
-        <li>Making websites</li>
-    </div>
-    
-    <div class="step" data-x="6500" data-y="1300" data-scale="1">
-        <li>Making websites</li>
-    </div>
+    <!--
+        
+        This element introduces rotation.
+        
+        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
+        element should be rotated by 90 degrees clockwise.
+        
     -->
-    
-    
-    
-    
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>It's a <strong>presentation tool</strong> <br/>
+        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
+        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    </div>
+
+    <!--
+        
+        And now it gets really exciting! We move into third dimension!
+        
+        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
+        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
+        positioned far away from us (by 3000px).
+        
+    -->
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>and <b>tiny</b> ideas</p>
+    </div>
 
     <!--
         
@@ -236,6 +257,13 @@
         Only one current step has the `present` class.
         
     -->
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    </div>
 
     <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>
