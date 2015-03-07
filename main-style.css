@@ -144,6 +144,7 @@ nav.slideLeft {
 	margin-bottom: 2%;
 	margin-left: 25%;
 	float: left;
+	overflow: hidden;
 	background-color: #EEEEEE;
 	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.1);
 	box-shadow: 0 0 6px rgba(0,0,0,0.1);
@@ -178,6 +179,7 @@ nav.slideLeft {
 #footer {
 	width: 100%;
 	height: 148px;
+	overflow: hidden;
 	clear: both;
 	bottom: 0;
 	left: 0;
@@ -197,6 +199,7 @@ nav.slideLeft {
 .attribution {
 	width: 100%;
 	height: 100px;
+	overflow: hidden;
 	background-color: #424242; /*Meaning of life 3x*/
 	color: #EEEEEE;
 	text-align: center;
