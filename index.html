@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<script src="scripts/script.js">
+	<script src="bower_components/webcomponentsjs/webcomponents.min.js">
 	</script>
 	<head>
 		<meta property="og:image" content="images/WZProjectslogo-vector.svg"/>
@@ -20,6 +20,12 @@
 		<link rel="import" href="bower_components/paper-elements/paper-elements.html">
 		<link rel="import" href="bower_components/core-menu/core-menu.html">
 		<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+		<style>
+			#drawer{position:absolute;z-index:1;background-color:#D4D4D4;}
+			#drawer > paper-item > .links{margin-left:15px;}
+			.sidebar{height:500px;float:left;margin-bottom:0px;background-color:#EEEEEE;overflow-y:auto;position:relative;}
+			.card{cursor:pointer;width:50%;margin-top:2%;margin-bottom:2%;margin-left:25%;float:left;overflow:hidden;background-color:#EEEEEE;-webkit-box-shadow:0 0 6px rgba(0,0,0,0.1);box-shadow:0 0 6px rgba(0,0,0,0.1);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease;}
+		</style>
 	</head>
 	<title>
 		Home - WZProjects
