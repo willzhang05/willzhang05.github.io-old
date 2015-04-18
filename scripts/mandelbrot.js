@@ -44,5 +44,12 @@ var update = function(){
 	}
 };
 
+function resetGen(){
+	xp = 0;
+	r = colorGen();
+	g = colorGen();
+	b = colorGen();
+}
+
 function interval(){sI = setInterval(update, 50)}
 function stopInterval(){clearInterval(sI)}
