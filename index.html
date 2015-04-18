@@ -98,8 +98,29 @@
 				<div id="content">
 					<paper-shadow z="1">
 						<div class="card">
+							<h1>Mandelbrot Set</h1>
+							<div class="render">
+								<canvas id="mandelbrot" width="250%" height="250%">
+								</canvas>
+								<script src="scripts/mandelbrot.js">
+								</script>
+							</div>
+							<div class="description">
+								<span style="display:block">Press "START" to begin Mandelbrot fractal generation and "STOP" to pause generation.</span>
+								<span style="display:block">WARNING: May lag your computer.</span>
+								<paper-button style="margin-top:15px; background-color:#4CAF50" onclick="interval()">
+									START
+								</paper-button>
+								<paper-button style="margin-top:15px; background-color:#F44336" onclick="stopInterval()">
+									STOP
+								</paper-button>
+							</div>
+						</div>
+					</paper-shadow>
+					<paper-shadow z="1">
+						<div class="card">
 							<h1>TTF Presentation</h1>
-							<div style="background-color:red; border:none;">
+							<div style="background-color:#F44336; border:none;">
 								<a class="source" href="http://willzhang05.github.io/bower_components/impress.js/">
 									<paper-item>
 										TTF Presentation Link
@@ -117,9 +138,10 @@
 								</a>
 							</div>
 							<div class="description">
-								<span>
+								<span style="display:block">
 									Made with Adobe Photoshop CS2.
-									<br />
+								</span>
+								<span style="display:block">
 									This work is licensed under a 
 									<a class="source" rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
 								</span>
@@ -152,17 +174,6 @@
 									<a class="source" href="http://beamng.com/" target="_blank">BeamNG.drive</a>.
 								</span>
 							</div>
-						</div>
-					</paper-shadow>
-					<paper-shadow z="1">
-						<div class="card">
-							<paper-item>
-								<canvas id="myCanvas" class="test">
-								</canvas>
-								<script>
-									
-								</script>
-							</paper-item>
 						</div>
 					</paper-shadow>
 				</div>
