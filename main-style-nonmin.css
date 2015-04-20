@@ -129,10 +129,10 @@ h1 {
 
 .card {
 	cursor: pointer;
-	width: 50%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 	margin-left: 25%;
+	margin-right: 25%;
 	float: left;
 	overflow: hidden;
 	background-color: #EEEEEE;
