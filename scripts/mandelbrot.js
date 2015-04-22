@@ -25,6 +25,8 @@ var mandelbrot = function(){
             z1 = Math.pow(z1, 2) - Math.pow(z2, 2) + x;
             z2 = (2*z0*z2) + y;
             if(Math.sqrt(Math.pow(z1, 2) + Math.pow(z2, 2)) >= 2){
+            	/*ctx.fillStyle=rgbToHex(r, g, b);
+				ctx.fillRect(xp,yp,1,1);*/
 				data[t] = r;
 				data[++t] = g;
 				data[++t] = b;
@@ -43,6 +45,15 @@ var update = function(){
 		stopInterval();
 	}
 };
+
+/*function componentToHex(c) {
+    var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+}
+
+function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}*/
 
 function resetGen(){
 	xp = 0;
