@@ -170,7 +170,6 @@ iframe {
 }
 
 .card .image, .render, .video, .music {
-	min-height: 300px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
 	border: none;
